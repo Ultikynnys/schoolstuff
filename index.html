@@ -5,6 +5,35 @@
         <meta charset="utf-8" />
         <title>Document</title>
     </head>
+    <style>
+        /* CSS for styling images with a black border, scaling, and left alignment */
+        .container {
+            display: flex; /* Use flexbox for layout */
+            align-items: center; /* Align items vertically in the center */
+            flex-direction: row; /* Arrange items in a row */
+        }
+
+        img {
+            border: 2px solid #000; /* 2px width solid black border */
+            max-width: 5%; /* Scale image to a maximum of 25% of its original width */
+            height: auto; /* Maintain aspect ratio */
+            margin-right: 10px; /* Adjust margin to provide space between text and image */
+        }
+    </style>
     <body>
+        
+  <h1>Welcome to My First Webpage</h1>
+  <p>This is my first webpage, and I'm excited to learn more about HTML.</p>
+  <p>In this webpage, I will be sharing information about my hobbies and interests.</p>
+    <!-- Container for both the image and text -->
+    <div class="container">
+        <!-- Example image with the applied styling, scaling, and right alignment -->
+        <img src="me.png" alt="Description of the image">
+        
+        <!-- Text to the right of the image -->
+        <div class="text-container">
+            <p>Hello</p>
+        </div>
+    </div>
     </body>
 </html>
