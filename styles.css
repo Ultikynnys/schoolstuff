@@ -1,0 +1,105 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #303030;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    border: 2px solid #000; /* 2px width solid black border */
+    max-width: 1%; /* Scale image to a maximum of 25% of its original width */
+    height: 1%; /* Maintain aspect ratio */
+
+}
+
+h1 {
+    font-size: 1.5em;
+    color: #3E3E3E;
+}
+
+h3 {
+    font-size: 1.2em;
+    color: #5D5D5D;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid #303030;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+th, td {
+    padding: 8px;
+    text-align: right;
+}
+
+strong {
+    font-weight: normal;
+}
+
+li {
+    list-style-type: none;
+}
+
+img {
+    border: 2px solid #303030;
+    border-radius: 8px;
+    max-width: 25%;
+    max-height: auto; /* Add this line to limit the height */
+}
+
+a:link, a:visited {
+    color: #303030;
+    font-size: 2.5em; /* Adjust the font size as needed */
+}
+
+
+a:hover {
+    color: #5D5D5D;
+    font-size: 2.5em; /* Adjust the font size as needed */
+}
+
+article {
+    width: 80%;
+    max-width: 1200px;
+    margin-top: 24px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+section ol {
+    padding-left: 20px;
+    list-style-type: none; /* Remove default disc styling */
+}
+
+section ol li::before {
+    content: '•'; /* Use a disc symbol as content */
+    color: #303030; /* Set the color of the bullet points to black */
+    display: inline-block;
+    width: 1em; /* Adjust the width as needed for spacing */
+    margin-left: -1em; /* Offset to align with the text */
+}
+
+header, footer {
+    background-color: #f2f2f2;
+    padding: 16px;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: 'Helvetica', sans-serif;
+    width: 100%; /* Ensure the background expands to full width */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
