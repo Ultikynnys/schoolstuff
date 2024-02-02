@@ -1,0 +1,117 @@
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  h1,
+  h2,
+  h3 {
+    font-weight: 400;
+  }
+  
+  img { 
+      max-width: 100%; 
+  }
+  
+  body {
+    padding: 1rem 0.5rem;
+    font-size: 1.3rem;
+    line-height: 1.2;
+    max-width: 60rem;
+    margin: 0 auto;
+    min-height: 100vh;
+    color: #333;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  
+  .header {
+    text-align: center;
+    border-bottom: 8px double #f9f9f9;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+  }
+  
+  .strap {
+    font-size: 1rem;
+  }
+  
+  .moneyshot {
+    position: relative;
+  }
+  
+  .moneyshot-image {
+    border: 6px solid #e8cfa9;
+    border-radius: 4px;
+  }
+  
+  .logo-wrapper {
+    display: block;
+  }
+  
+  .image-caption {
+    font-size: 0.75rem;
+    position: absolute;
+    bottom: 0.5rem;
+    right: 1rem;
+    padding: 3px;
+    background-color: #222;
+    color: #e4e4e4;
+  }
+  
+  .intro-text {
+    font-size: 1.8rem;
+    font-style: italic;
+    padding: 0;
+  }
+  
+  .method-wrapper li {
+    padding: 0.4rem 0;
+    list-style-type: decimal-leading-zero;
+    line-height: 1.4em;
+  }
+img { 
+    max-width: 100%; 
+}
+
+@media screen and (min-width: 800px) { 
+    body { 
+        border-left: 4px solid #f9f9f9; 
+        border-right: 4px solid #f9f9f9; 
+        padding: 1rem 2rem; 
+    } 
+    .intro-wrapper { 
+        display: flex; 
+        gap: 0 20px; 
+        flex: 1 1 auto; 
+        align-items: center; 
+    } 
+    .moneyshot, 
+    .intro-text { 
+        margin: 0; 
+        flex: 1 1 50%; 
+    } 
+    .moneyshot-image { 
+        filter: drop-shadow(0 0 20px #0008); 
+        border: 0; 
+    } 
+    .intro-text { 
+        padding: 0.5rem; 
+        font-size: 2.5rem; 
+        text-align: left; 
+        position: relative; 
+    } 
+     .ingredients { 
+        font-size: 0.9rem; 
+        float: right; 
+        padding: 1rem; 
+        margin: 0 0 0.5rem 1rem; 
+        border-radius: 3px; 
+        background-color: #ffffdf; 
+        border: 9px solid #debb71; 
+    } 
+    .ingredients h3 { 
+        margin: 0; 
+    } 
+  }
